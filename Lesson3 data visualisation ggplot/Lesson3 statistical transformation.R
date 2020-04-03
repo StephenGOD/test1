@@ -66,7 +66,7 @@ bar <- ggplot(diamonds) +
 bar+coord_map()
 
 bar1 <- bar + coord_flip() + labs(title = "Bar")
-bar2 <- bar + coord_polar() + labs(title = "Polar")
+bar2 <- bar + coord_polar() + labs(title = "Polar") #coord_polar
 
 library(gridExtra)
 grid.arrange(bar1, bar2, ncol=2)

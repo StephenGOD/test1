@@ -112,3 +112,18 @@ cummean(x)
 y <- c(1,2,2,NA,3,4,5)
 min_rank(y)
 row_number(y)
+
+s <- c("aa","bb","cc", "dd")
+s[3]
+s[-3] #will remove the 3rd value
+s[c(2,3)] #both 2nd and 3rd value
+s[c(2,3,1)] # will show the value according to order
+L <- c(T, F, F,T)
+s[L] #only show the True value
+s[c(T,F,F,T)]
+v= c("Stephen", "Peng")
+names(v)= c("fname","lname")
+v
+v["fname"]
+
+
